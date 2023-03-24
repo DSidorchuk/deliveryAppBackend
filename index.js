@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/public"));
 const filePath = "delivery.json";
 
 const corsOptions = {
-    origin: 'http://delivery.dsidorchuk.com.ua/',
+    origin: 'http://delivery.dsidorchuk.com.ua',
     optionsSuccessStatus: 200
 };
 
