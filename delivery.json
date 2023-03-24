@@ -1,0 +1,718 @@
+{
+  "shops": [
+    {
+      "id": "mcdonalds",
+      "name": "McDonald`s",
+      "address": "вулиця Дерибасівська, 23, Одеса, Одеська область, 65000"
+    },
+    {
+      "id": "kfc",
+      "name": "KFC",
+      "address": "Південна дорога, 101а, Одеса, Одеська область, 67562"
+    },
+    {
+      "id": "sushi",
+      "name": "Sushi",
+      "address": "вулиця Ольгіївська, 17, Одеса, Одеська область, 65000"
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "address": "вулиця Успенська, 40, Одеса, Одеська область, 65011"
+    }
+  ],
+  "orders": [
+    {
+      "name": "Daniil",
+      "phone": "380635834623",
+      "email": "sidorchuk.daniil@gmail.com",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "232f832f-6871-44e5-8bc8-c3c6bfca7c08",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        }
+      ],
+      "amount": 50,
+      "date": "Thu Feb 23 2023 20:46:31 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Daniil",
+      "phone": "380635834623",
+      "email": "guiplen13@proton.me",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "34ef9247-779b-441d-b3d6-92822a9564f4",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 2
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 100,
+      "date": "Fri Feb 24 2023 20:39:19 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Daniil",
+      "phone": "380635834623",
+      "email": "vadimsidorchuk@gmail.com",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "45275e78-6d26-4afd-80e1-83fa5b09eb20",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 4
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 200,
+      "date": "Fri Feb 24 2023 22:17:22 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Alex",
+      "phone": "380635834623",
+      "email": "sidorchuk.daniil@gmail.com",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "f1a07c4a-3890-4e92-b8df-9282024f488d",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        },
+        {
+          "id": "cheeseburger",
+          "name": "Чізбургер",
+          "description": "Біфштекс із натуральної яловичини, шматочок сиру “Чеддер”, шматочок маринованого огірка та цибуля, заправлені гірчицею і кетчупом, у булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Cheeseburger:product-header-desktop?wid=830&hei=458&dpr=off",
+          "price": "70",
+          "qtty": 1
+        },
+        {
+          "id": "doublecheeseburger",
+          "name": "Дабл Чізбургер",
+          "description": "Два біфштекси з натуральної яловичини, два шматочки сиру “Чеддер”, цибуля, гірчиця, кетчуп, булочка.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/SdwchDoubleCheeseburger:product-header-desktop?wid=830&hei=458&dpr=off",
+          "price": "90",
+          "qtty": 1
+        },
+        {
+          "id": "mcchicken",
+          "name": "МакЧікен",
+          "description": "Мелене куряче м’ясо, засмажене у хрумкому паніруванні, та свіжий салат, заправлені вишуканим соусом, у булочці з пшеничного борошна з насінням сезаму.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_McChicken:product-header-desktop?wid=830&hei=458&dpr=off",
+          "price": "90",
+          "qtty": 1
+        },
+        {
+          "id": "bigmac",
+          "name": "Біг Мак",
+          "description": "Два біфштекси з натуральної яловичини, цибуля, маринований огірок, сир “Чеддер”, свіжий салат, заправлені спеціальним соусом, у булочці з насінням сезаму.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/thumb.Sdwch_BigMac:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "120",
+          "qtty": 1
+        },
+        {
+          "id": "bigtasty",
+          "name": "Біг Тейсті",
+          "description": "Натуральна яловичина у поєднанні зі свіжими овочами та плавленим сиром “Емменталь”.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/SdwchBigTasty:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "140",
+          "qtty": 1
+        },
+        {
+          "id": "fileofish",
+          "name": "Філе-о-фіш",
+          "description": "Ніжне рибне філе із тріскових риб, засмажене у хрумкому паніруванні, півшматочка сиру “Чеддер”, заправлені пікантним соусом, у пухкій булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_File-o-Fish-1:product-header-desktop?wid=829&hei=455&dpr=off",
+          "price": "100",
+          "qtty": 1
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 660,
+      "date": "Fri Feb 24 2023 22:18:51 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Alex",
+      "phone": "380635834623",
+      "email": "vadimsidorchuk@gmail.com",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "b66c739c-68c7-48da-887c-6029033309a0",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 5
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 250,
+      "date": "Sat Feb 25 2023 14:56:13 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Daniil",
+      "phone": "380635834623",
+      "email": "sidorchuk.daniil@gmail.com",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "379f3e83-912f-4740-b0e1-955395c65a49",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 50,
+      "date": "Sat Feb 25 2023 15:17:50 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "cccc",
+      "phone": "380635834623",
+      "email": "guiplen13@proton.me",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "525de6fe-f3ab-4818-bd58-1a6443bb2933",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 50,
+      "date": "Sat Feb 25 2023 16:36:20 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Daniil",
+      "phone": "380635834623",
+      "email": "sugardaddy1488@proton.me",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "83b4d2fa-ff81-4aeb-a814-3f5134267af0",
+      "orderList": [
+        {
+          "id": "bitesbbq",
+          "name": "Байтс Барбекю",
+          "description": "Соковиті гострі шматочки курочки у хрусткій паніровці з соусом барбекю.",
+          "image": "https://www.kfc-ukraine.com/admin/files/4131.jpg",
+          "price": "105",
+          "qtty": 1
+        },
+        {
+          "id": "spicywings",
+          "name": "Гострі Крильця",
+          "description": "8 гострих курячих крилець в хрусткій паніровці",
+          "image": "https://www.kfc-ukraine.com/admin/files/4096.png",
+          "price": "160",
+          "qtty": 1
+        },
+        {
+          "id": "spicystrip",
+          "name": "Стріпси Гострі",
+          "description": "8 шматочків ніжного курячого філе, обсмаженого в гострій хрусткій паніровці",
+          "image": "https://www.kfc-ukraine.com/admin/files/4098.png",
+          "price": "165",
+          "qtty": 1
+        },
+        {
+          "id": "chickenleg",
+          "name": "Ніжки",
+          "description": "4 ніжки обсмажені в хрусткій паніровці",
+          "image": "https://www.kfc-ukraine.com/admin/files/3790.jpg",
+          "price": "145",
+          "qtty": 1
+        }
+      ],
+      "shop": "kfc",
+      "amount": 575,
+      "date": "Tue Feb 28 2023 21:15:50 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Daniil",
+      "phone": "380635834623",
+      "email": "sidorchuk.daniil@gmail.com",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "7b8bcbaa-8a68-4ac9-afd8-653bd4af76c7",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 3
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 135,
+      "date": "Wed Mar 01 2023 21:08:43 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Daniil",
+      "phone": "380635834623",
+      "email": "guiplen13@proton.me",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "ee11a51f-6681-4bf1-9775-389acac1d4f1",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        },
+        {
+          "id": "cheeseburger",
+          "name": "Чізбургер",
+          "description": "Біфштекс із натуральної яловичини, шматочок сиру “Чеддер”, шматочок маринованого огірка та цибуля, заправлені гірчицею і кетчупом, у булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Cheeseburger:product-header-desktop?wid=830&hei=458&dpr=off",
+          "price": "70",
+          "qtty": 1
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 96,
+      "date": "Mon Mar 06 2023 20:14:13 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Guinplen",
+      "phone": "380635834623",
+      "email": "vadimsidorchuk@gmail.com",
+      "address": "tttttttttttttttttttttttttttttttttttttttttt",
+      "id": "3a39295d-42c7-49d0-978b-185327450726",
+      "orderList": [
+        {
+          "id": "setfusionphiladelphia",
+          "name": "Сет Фьюжн філадельфія",
+          "description": "Преміум-сет на 24 шматочки, до складу якого входять роли: 1. Ніжний рол зі свіжою сьомгою, манговим желе та ананасом у вершковому сирі, приправлений манговим соусом та мигдальною стружкою. 2. Апетитний рол зі свіжою сьомгою, вершковим сиром, червоною ікрою капелана, прикрашений слайсами авокадо та приправлений манговим соусом з мигдальною стружкою. 3. Ситний рол з креветкою темпура, вершковою філадельфією, полуничним желе під тостовим сиром з соусом теріякі",
+          "image": "https://storage.smilefood.ua/storage/2b/f2/2bf26a8971b75b5c10a2641ebec95acc.jpeg",
+          "price": "799",
+          "qtty": 1
+        },
+        {
+          "id": "tropicphiladelphia",
+          "name": "Тропічна філадельфія",
+          "description": "Ніжний рол зі свіжою сьомгою, манговим желе та ананасом у вершковому сирі, приправлений манговим соусом та мигдальною стружкою",
+          "image": "https://storage.smilefood.ua/storage/70/10/7010ac688d41d89a8a0d4dfef00e16d9.jfif",
+          "price": "259",
+          "qtty": 1
+        },
+        {
+          "id": "filomania",
+          "name": "Філоманія",
+          "description": "Унікальний рол з подвійним вершковим сиром, подвійною свіжою сьомгою та помаранчевою ікрою капелана.",
+          "image": "https://storage.smilefood.ua/storage/53/a9/53a9291998e0f612757166bb742eb99a-size-1000.webp",
+          "price": "319",
+          "qtty": 1
+        },
+        {
+          "id": "sethit",
+          "name": "Сет ХІТ",
+          "description": "ТОПовий сет на 18 шматочків, що складається з ролів: SMART Філадельфія Класик, SMART Кавабанга, SMART Сяке макі",
+          "image": "https://storage.smilefood.ua/storage/61/30/6130f260afaf01e0616e1ce8bec9391f-size-1000.webp",
+          "price": "449",
+          "qtty": 1
+        },
+        {
+          "id": "almonddukan",
+          "name": "Мигдальний дукан",
+          "description": "Апетитний рол зі свіжою сьомгою, вершковим сиром та червоною ікрою капелана, прикрашений слайсами авокадо та приправлений манговим соусом та мигдальною стружкою",
+          "image": "https://storage.smilefood.ua/storage/0d/3c/0d3c1520d10b3b1759abecc36c97c4c8.jfif",
+          "price": "269",
+          "qtty": 1
+        },
+        {
+          "id": "toshigami",
+          "name": "Тошигамі",
+          "description": "Рол у ікрі капелана з ніжною сьомгою, вершковим сиром та свіжим хрустким огірком, прикрашений мікрогрином соняшника",
+          "image": "https://storage.smilefood.ua/storage/a9/07/a907a8ad36da0e56c4376450319fc4d2.jpg",
+          "price": "249",
+          "qtty": 1
+        },
+        {
+          "id": "vulcano",
+          "name": "Вулкан",
+          "description": "Ситний рол у червоній ікрі капелана з тигровою креветкою та свіжим огірком, прикрашений вершковим сиром з манговим соусом і мигдальною стружкою",
+          "image": "https://storage.smilefood.ua/storage/13/26/1326310fe47e758214d72524d6b7b031.jpg",
+          "price": "229",
+          "qtty": 1
+        }
+      ],
+      "shop": "sushi",
+      "amount": 2316,
+      "date": "Tue Mar 07 2023 20:51:30 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Guinplen",
+      "phone": "380635834623",
+      "email": "vadimsidorchuk@gmail.com",
+      "address": "tttttttttttttttttttttttttttttttttttttttttt",
+      "id": "ae773c2d-18af-4830-8fa8-1985a2591f5d",
+      "orderList": [
+        {
+          "id": "sethit",
+          "name": "Сет ХІТ",
+          "description": "ТОПовий сет на 18 шматочків, що складається з ролів: SMART Філадельфія Класик, SMART Кавабанга, SMART Сяке макі",
+          "image": "https://storage.smilefood.ua/storage/61/30/6130f260afaf01e0616e1ce8bec9391f-size-1000.webp",
+          "price": "449",
+          "qtty": 1
+        },
+        {
+          "id": "setfusionphiladelphia",
+          "name": "Сет Фьюжн філадельфія",
+          "description": "Преміум-сет на 24 шматочки, до складу якого входять роли: 1. Ніжний рол зі свіжою сьомгою, манговим желе та ананасом у вершковому сирі, приправлений манговим соусом та мигдальною стружкою. 2. Апетитний рол зі свіжою сьомгою, вершковим сиром, червоною ікрою капелана, прикрашений слайсами авокадо та приправлений манговим соусом з мигдальною стружкою. 3. Ситний рол з креветкою темпура, вершковою філадельфією, полуничним желе під тостовим сиром з соусом теріякі",
+          "image": "https://storage.smilefood.ua/storage/2b/f2/2bf26a8971b75b5c10a2641ebec95acc.jpeg",
+          "price": "799",
+          "qtty": 1
+        },
+        {
+          "id": "almonddukan",
+          "name": "Мигдальний дукан",
+          "description": "Апетитний рол зі свіжою сьомгою, вершковим сиром та червоною ікрою капелана, прикрашений слайсами авокадо та приправлений манговим соусом та мигдальною стружкою",
+          "image": "https://storage.smilefood.ua/storage/0d/3c/0d3c1520d10b3b1759abecc36c97c4c8.jfif",
+          "price": "269",
+          "qtty": 1
+        },
+        {
+          "id": "tropicphiladelphia",
+          "name": "Тропічна філадельфія",
+          "description": "Ніжний рол зі свіжою сьомгою, манговим желе та ананасом у вершковому сирі, приправлений манговим соусом та мигдальною стружкою",
+          "image": "https://storage.smilefood.ua/storage/70/10/7010ac688d41d89a8a0d4dfef00e16d9.jfif",
+          "price": "259",
+          "qtty": 1
+        },
+        {
+          "id": "vulcano",
+          "name": "Вулкан",
+          "description": "Ситний рол у червоній ікрі капелана з тигровою креветкою та свіжим огірком, прикрашений вершковим сиром з манговим соусом і мигдальною стружкою",
+          "image": "https://storage.smilefood.ua/storage/13/26/1326310fe47e758214d72524d6b7b031.jpg",
+          "price": "229",
+          "qtty": 1
+        },
+        {
+          "id": "toshigami",
+          "name": "Тошигамі",
+          "description": "Рол у ікрі капелана з ніжною сьомгою, вершковим сиром та свіжим хрустким огірком, прикрашений мікрогрином соняшника",
+          "image": "https://storage.smilefood.ua/storage/a9/07/a907a8ad36da0e56c4376450319fc4d2.jpg",
+          "price": "249",
+          "qtty": 1
+        }
+      ],
+      "shop": "sushi",
+      "amount": 2029,
+      "date": "Thu Mar 09 2023 21:08:15 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "ddd",
+      "phone": "380635834623",
+      "email": "guinplen13@proton.me",
+      "address": "tttttttttttttttttttttttttttttttttttttttttt",
+      "id": "399bacbd-bc76-4d3f-9aa4-1887240d9dab",
+      "orderList": [
+        {
+          "id": "setfusionphiladelphia",
+          "name": "Сет Фьюжн філадельфія",
+          "description": "Преміум-сет на 24 шматочки, до складу якого входять роли: 1. Ніжний рол зі свіжою сьомгою, манговим желе та ананасом у вершковому сирі, приправлений манговим соусом та мигдальною стружкою. 2. Апетитний рол зі свіжою сьомгою, вершковим сиром, червоною ікрою капелана, прикрашений слайсами авокадо та приправлений манговим соусом з мигдальною стружкою. 3. Ситний рол з креветкою темпура, вершковою філадельфією, полуничним желе під тостовим сиром з соусом теріякі",
+          "image": "https://storage.smilefood.ua/storage/2b/f2/2bf26a8971b75b5c10a2641ebec95acc.jpeg",
+          "price": "799",
+          "qtty": 1
+        }
+      ],
+      "shop": "sushi",
+      "amount": 720,
+      "date": "Fri Mar 10 2023 21:48:52 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "ddd",
+      "phone": "380635834623",
+      "email": "vadimsidorchuk@gmail.com",
+      "address": "tttttttttttttttttttttttttttttttttttttttttt",
+      "id": "e5c54d04-fa8a-4563-83e2-592624dee034",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 50,
+      "date": "Sat Mar 11 2023 18:10:21 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "ddd",
+      "phone": "380635834623",
+      "email": "vadimsidorchuk@gmail.com",
+      "address": "tttttttttttttttttttttttttttttttttttttttttt",
+      "id": "3f047eee-8490-4518-ba0e-760431cd56a7",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        }
+      ],
+      "shop": "mcdonalds",
+      "amount": 50,
+      "date": "Sat Mar 11 2023 18:19:09 GMT+0200 (Восточная Европа, стандартное время)"
+    }
+  ],
+  "coupones": [
+    {
+      "id": "mon20",
+      "shop": "all",
+      "type": "date",
+      "date": "Mon",
+      "amount": 0,
+      "everyN": 0,
+      "discount": 0.2,
+      "discountForItem": "",
+      "description": "Кожного понеділка -20% на всі товари!"
+    },
+    {
+      "id": "sushi",
+      "shop": "sushi",
+      "type": "amount",
+      "date": "every",
+      "amount": 500,
+      "everyN": 0,
+      "discount": 0.1,
+      "discountForItem": "",
+      "description": "Щодня при замовлені суші на суму понад 500 ГРН знижка -10%!"
+    },
+    {
+      "id": "hamburger",
+      "shop": "mcdonalds",
+      "type": "qtty",
+      "date": "every",
+      "amount": 0,
+      "everyN": 3,
+      "discount": 0.3,
+      "discountForItem": "hamburger",
+      "description": "Щодня знижка на кожен третій гамбургер 30%!"
+    }
+  ],
+  "mcdonalds": [
+    {
+      "id": "hamburger",
+      "name": "Гамбургер",
+      "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+      "price": "50"
+    },
+    {
+      "id": "cheeseburger",
+      "name": "Чізбургер",
+      "description": "Біфштекс із натуральної яловичини, шматочок сиру “Чеддер”, шматочок маринованого огірка та цибуля, заправлені гірчицею і кетчупом, у булочці з пшеничного борошна.",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Cheeseburger:product-header-desktop?wid=830&hei=458&dpr=off",
+      "price": "70"
+    },
+    {
+      "id": "doublecheeseburger",
+      "name": "Дабл Чізбургер",
+      "description": "Два біфштекси з натуральної яловичини, два шматочки сиру “Чеддер”, цибуля, гірчиця, кетчуп, булочка.",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/SdwchDoubleCheeseburger:product-header-desktop?wid=830&hei=458&dpr=off",
+      "price": "90"
+    },
+    {
+      "id": "mcchicken",
+      "name": "МакЧікен",
+      "description": "Мелене куряче м’ясо, засмажене у хрумкому паніруванні, та свіжий салат, заправлені вишуканим соусом, у булочці з пшеничного борошна з насінням сезаму.",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_McChicken:product-header-desktop?wid=830&hei=458&dpr=off",
+      "price": "90"
+    },
+    {
+      "id": "bigmac",
+      "name": "Біг Мак",
+      "description": "Два біфштекси з натуральної яловичини, цибуля, маринований огірок, сир “Чеддер”, свіжий салат, заправлені спеціальним соусом, у булочці з насінням сезаму.",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/thumb.Sdwch_BigMac:product-header-desktop?wid=830&hei=456&dpr=off",
+      "price": "120"
+    },
+    {
+      "id": "bigtasty",
+      "name": "Біг Тейсті",
+      "description": "Натуральна яловичина у поєднанні зі свіжими овочами та плавленим сиром “Емменталь”.",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/SdwchBigTasty:product-header-desktop?wid=830&hei=456&dpr=off",
+      "price": "140"
+    },
+    {
+      "id": "fileofish",
+      "name": "Філе-о-фіш",
+      "description": "Ніжне рибне філе із тріскових риб, засмажене у хрумкому паніруванні, півшматочка сиру “Чеддер”, заправлені пікантним соусом, у пухкій булочці з пшеничного борошна.",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_File-o-Fish-1:product-header-desktop?wid=829&hei=455&dpr=off",
+      "price": "100"
+    }
+  ],
+  "kfc": [
+    {
+      "id": "bitesbbq",
+      "name": "Байтс Барбекю",
+      "description": "Соковиті гострі шматочки курочки у хрусткій паніровці з соусом барбекю.",
+      "image": "https://www.kfc-ukraine.com/admin/files/4131.jpg",
+      "price": "105"
+    },
+    {
+      "id": "spicywings",
+      "name": "Гострі Крильця",
+      "description": "8 гострих курячих крилець в хрусткій паніровці",
+      "image": "https://www.kfc-ukraine.com/admin/files/4096.png",
+      "price": "160"
+    },
+    {
+      "id": "spicystrip",
+      "name": "Стріпси Гострі",
+      "description": "8 шматочків ніжного курячого філе, обсмаженого в гострій хрусткій паніровці",
+      "image": "https://www.kfc-ukraine.com/admin/files/4098.png",
+      "price": "165"
+    },
+    {
+      "id": "chickenleg",
+      "name": "Ніжки",
+      "description": "4 ніжки обсмажені в хрусткій паніровці",
+      "image": "https://www.kfc-ukraine.com/admin/files/3790.jpg",
+      "price": "145"
+    }
+  ],
+  "sushi": [
+    {
+      "id": "sethit",
+      "name": "Сет ХІТ",
+      "description": "ТОПовий сет на 18 шматочків, що складається з ролів: SMART Філадельфія Класик, SMART Кавабанга, SMART Сяке макі",
+      "image": "https://storage.smilefood.ua/storage/61/30/6130f260afaf01e0616e1ce8bec9391f-size-1000.webp",
+      "price": "449"
+    },
+    {
+      "id": "setfusionphiladelphia",
+      "name": "Сет Фьюжн філадельфія",
+      "description": "Преміум-сет на 24 шматочки, до складу якого входять роли: 1. Ніжний рол зі свіжою сьомгою, манговим желе та ананасом у вершковому сирі, приправлений манговим соусом та мигдальною стружкою. 2. Апетитний рол зі свіжою сьомгою, вершковим сиром, червоною ікрою капелана, прикрашений слайсами авокадо та приправлений манговим соусом з мигдальною стружкою. 3. Ситний рол з креветкою темпура, вершковою філадельфією, полуничним желе під тостовим сиром з соусом теріякі",
+      "image": "https://storage.smilefood.ua/storage/2b/f2/2bf26a8971b75b5c10a2641ebec95acc.jpeg",
+      "price": "799"
+    },
+    {
+      "id": "tropicphiladelphia",
+      "name": "Тропічна філадельфія",
+      "description": "Ніжний рол зі свіжою сьомгою, манговим желе та ананасом у вершковому сирі, приправлений манговим соусом та мигдальною стружкою",
+      "image": "https://storage.smilefood.ua/storage/70/10/7010ac688d41d89a8a0d4dfef00e16d9.jfif",
+      "price": "259"
+    },
+    {
+      "id": "almonddukan",
+      "name": "Мигдальний дукан",
+      "description": "Апетитний рол зі свіжою сьомгою, вершковим сиром та червоною ікрою капелана, прикрашений слайсами авокадо та приправлений манговим соусом та мигдальною стружкою",
+      "image": "https://storage.smilefood.ua/storage/0d/3c/0d3c1520d10b3b1759abecc36c97c4c8.jfif",
+      "price": "269"
+    },
+    {
+      "id": "vulcano",
+      "name": "Вулкан",
+      "description": "Ситний рол у червоній ікрі капелана з тигровою креветкою та свіжим огірком, прикрашений вершковим сиром з манговим соусом і мигдальною стружкою",
+      "image": "https://storage.smilefood.ua/storage/13/26/1326310fe47e758214d72524d6b7b031.jpg",
+      "price": "229"
+    },
+    {
+      "id": "toshigami",
+      "name": "Тошигамі",
+      "description": "Рол у ікрі капелана з ніжною сьомгою, вершковим сиром та свіжим хрустким огірком, прикрашений мікрогрином соняшника",
+      "image": "https://storage.smilefood.ua/storage/a9/07/a907a8ad36da0e56c4376450319fc4d2.jpg",
+      "price": "249"
+    },
+    {
+      "id": "tanara",
+      "name": "Танара",
+      "description": "Рол з вершковим сиром, ікрою капелана, креветкою, ніжною сьомгою, фірмовим майонезом і огірком.",
+      "image": "https://storage.smilefood.ua/storage/61/48/6148505556518ca920fb4aad0c79e4a0-size-1000.webp",
+      "price": "289"
+    },
+    {
+      "id": "filomania",
+      "name": "Філоманія",
+      "description": "Унікальний рол з подвійним вершковим сиром, подвійною свіжою сьомгою та помаранчевою ікрою капелана.",
+      "image": "https://storage.smilefood.ua/storage/53/a9/53a9291998e0f612757166bb742eb99a-size-1000.webp",
+      "price": "319"
+    }
+  ],
+  "pizza": [
+    {
+      "id": "burger",
+      "name": "Бургер",
+      "description": "фрикадельки • Чеддер • бекон • Моцарела • огірок маринований • помідор • соус 'Бургер' • томатний соус (основа) • цибуля",
+      "image": "https://pizza.od.ua/upload/resize_cache/iblock/c12/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/c127a175c2439fd7eb26c79a9035aa57.png",
+      "price": "199"
+    },
+    {
+      "id": "colabbq",
+      "name": "Cola BBQ",
+      "description": "Баварські ковбаски • бекон • Моцарела • перчик Халапеньо • томатний соус (основа) • цибуля • печериці",
+      "image": "https://pizza.od.ua/upload/resize_cache/iblock/e71/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/e71bf8424510c99bdfedff64898dcec6.png",
+      "price": "195"
+    },
+    {
+      "id": "4cheese",
+      "name": "Чотири сири",
+      "description": "Дор блю • Пармезан • Чеддер • Моцарела • Вершковий соус Альфредо (основа)",
+      "image": "https://pizza.od.ua/upload/resize_cache/iblock/f38/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/f38b33ebe98b8cecec084e14553c608f.jpg",
+      "price": "234"
+    },
+    {
+      "id": "chickenjack",
+      "name": "Курча Джек",
+      "description": "BBQ соус (основа) • бекон • курка гриль • Моцарела • перчик Халапеньо • соус 'Jack Daniel's' ® • цибуля • печериці",
+      "image": "https://pizza.od.ua/upload/resize_cache/iblock/514/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/514070bd831b5ef1708cefc171b0c366.jpg",
+      "price": "234"
+    },
+    {
+      "id": "bayraktar",
+      "name": "Байрактар",
+      "description": "Моцарела • салямі Пепероні • томатний соус (основа) • печериці",
+      "image": "https://pizza.od.ua/upload/resize_cache/iblock/590/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/5902b7fe46706d2b95b27378848410f8.png",
+      "price": "149"
+    },
+    {
+      "id": "firm",
+      "name": "Фірмова",
+      "description": "балык • бекон • шинка • курка гриль • Моцарела • перець болгарський • салямі Пепероні • томатний соус (основа)",
+      "image": "https://pizza.od.ua/upload/resize_cache/iblock/442/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/44205a593ca3b5d59456a0ac892ecd99.png",
+      "price": "224"
+    },
+    {
+      "id": "kebab",
+      "name": "Кебаб з баранини",
+      "description": "бСацебели соус • баклажан • кебаб из баранины • кинза • Моцарела • перець болгарський • помідор • томатний соус (основа) • цибуля",
+      "image": "https://pizza.od.ua/upload/resize_cache/iblock/122/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/122aff85492943c1531ed85f1db431f9.png",
+      "price": "211"
+    }
+  ]
+}
