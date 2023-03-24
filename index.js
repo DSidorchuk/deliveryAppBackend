@@ -11,6 +11,7 @@ app.get("/shops", (req, res) => {
     
     const content = fs.readFileSync(filePath, "utf8");
     const contentList = JSON.parse(content);
+    res.append("Access-Control-Allow-Origin", '*');
     res.send(contentList['shops']);
 });
 
