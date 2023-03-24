@@ -14,4 +14,4 @@ app.get("/shops", (req, res) => {
     res.send(contentList['shops']);
 });
 
-app.listen(3000);
+app.listen(80);
