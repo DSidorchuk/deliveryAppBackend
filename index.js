@@ -27,13 +27,19 @@ app.get("/:shopId", cors(corsOptions), (req, res) => {
     res.send(contentList[shopId]);
 });
 
+app.options('/coupones', cors());
+app.get('/coupones', cors(corsOptions), (req, res) => {
+    
+    res.send(contentList['/coupones']);
+});
+
 app.listen(80);
 
 /*
 Запросы на сервер:
 1. Магазины Х
-2. Товары по магазину
-3. Акции
+2. Товары по магазину Х
+3. Акции 
 4. Конкретный товар
 5. История заказов
 6. Сохранение заказа
