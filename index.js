@@ -27,6 +27,17 @@ app.get("/:shopId", cors(corsOptions), (req, res) => {
     res.send(contentList[shopId]);
 });
 
+app.options("/:shopId/:itemId", cors());
+app.get("/:shopId/:itemId", cors(corsOptions), (req, res) => {
+    const shopId = req.params["shopId"];
+    const itemId = req.params["itemId"];
+    contentList[shopId].forEach(item => {
+        if (item.id === itemId) {
+            res.send(item);
+        }
+    })
+});
+
 app.options('/coupones', cors());
 app.get('/coupones', cors(corsOptions), (req, res) => {
     
@@ -39,7 +50,7 @@ app.listen(80);
 Запросы на сервер:
 1. Магазины Х
 2. Товары по магазину Х
-3. Акции 
+3. Акции Х
 4. Конкретный товар
 5. История заказов
 6. Сохранение заказа
