@@ -21,7 +21,7 @@ app.get("/shops", cors(corsOptions), (req, res) => {
     res.send(contentList['shops']);
 });
 
-
+app.options("/:shopId", cors());
 app.get("/:shopId", cors(corsOptions), (req, res) => {
     const shopId = req.params["shopId"];
     res.send(contentList[shopId]);
