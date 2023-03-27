@@ -49,17 +49,10 @@ app.get('/coupones', cors(corsOptions), (req, res) => {
 
 app.options("/orders/:phone", cors());
 app.get("/orders/:phone", cors(corsOptions), (req, res) => {
-    let phone = req.params['phone']
-    if (phone) {
-        let orders = contentList["orders"].filter(item => {
-            item.phone === phone;
-        });
-        if (orders.length) {
-            res.send(orders);
-        } else {
-            res.sendStatus(404);
-        }
-    }
+    const phone = req.params['phone'];
+    const orders = contentList['orders'];
+    const userOrders = orders.filter(item => item.phone === phone );
+    res.send(userOrders);
 });
 
 app.listen(80);
