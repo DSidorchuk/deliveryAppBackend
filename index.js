@@ -19,7 +19,6 @@ const corsOptions = {
 // Get list of shops for main page 
 app.options('/shops', cors());
 app.get("/shops", cors(corsOptions), (req, res) => {
-    
     res.send(contentList['shops']);
 });
 
@@ -48,12 +47,19 @@ app.get('/coupones', cors(corsOptions), (req, res) => {
     res.send(contentList['/coupones']);
 });
 
-app.options("/orders", cors());
-app.get("/orders", cors(corsOptions), (req, res) => {
-    let orders = contentList["orders"].filter(item => {
-        item.phone === req.query.phone;
-    });
-    res.send(orders);
+app.options("/orders/:phone", cors());
+app.get("/orders/:phone", cors(corsOptions), (req, res) => {
+    let phone = req.params['phone']
+    if (phone) {
+        let orders = contentList["orders"].filter(item => {
+            item.phone === phone;
+        });
+        if (orders.length) {
+            res.send(orders);
+        } else {
+            res.sendStatus(404);
+        }
+    }
 });
 
 app.listen(80);
