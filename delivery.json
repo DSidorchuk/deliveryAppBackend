@@ -40,6 +40,25 @@
       ],
       "amount": 50,
       "date": "Thu Feb 23 2023 20:46:31 GMT+0200 (Восточная Европа, стандартное время)"
+    },
+    {
+      "name": "Daniil",
+      "phone": "380635834622",
+      "email": "sidorchuk.daniil@gmail.com",
+      "address": "ttttttttttttttttttttttttttttttttt",
+      "id": "232f832f-6871-44e5-8bc8-c3c6bfca7c08",
+      "orderList": [
+        {
+          "id": "hamburger",
+          "name": "Гамбургер",
+          "description": "Біфштекс із натуральної яловичини, цибуля, шматочок маринованого огірка, заправлені гірчицею і кетчупом, у запашній булочці з пшеничного борошна.",
+          "image": "https://s7d1.scene7.com/is/image/mcdonalds/Sdwch_Hamburger:product-header-desktop?wid=830&hei=456&dpr=off",
+          "price": "50",
+          "qtty": 1
+        }
+      ],
+      "amount": 50,
+      "date": "Thu Feb 23 2023 20:46:31 GMT+0200 (Восточная Европа, стандартное время)"
     }
   ],
   "coupones": [
