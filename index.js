@@ -12,7 +12,7 @@ const contentList = JSON.parse(content);
 
 const addOrder = (order) => {
     const newContent = contentList['orders'].push(order);
-    fs.writeFileSync(filePath, newContent);
+    fs.writeFileSync(filePath, JSON.parse(newContent));
 }
 
 const corsOptions = {
