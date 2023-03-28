@@ -62,7 +62,7 @@ app.get("/history/:phone", cors(corsOptions), (req, res) => {
 // Send and safe order
 app.options("/order", cors());
 app.post("/order", cors(corsOptions), (req, res) => {
-    console.log(req.body);
+    console.log(req);
     if (!req.body) return res.sendStatus(400);
     console.log("inside " + req.body);
     addOrder(req.body);
