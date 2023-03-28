@@ -60,6 +60,7 @@ app.get("/history/:phone", cors(corsOptions), (req, res) => {
 });
 
 // Send and safe order
+app.use(express.json());
 app.options("/order", cors());
 app.post("/order", cors(corsOptions), (req, res) => {
     console.log(req);
