@@ -10,6 +10,7 @@ const filePath = "delivery.json";
 const content = fs.readFileSync(filePath, "utf8");
 const contentList = JSON.parse(content);
 
+// Add received from website order data to json file
 const addOrder = (order) => {
     let newContent = contentList['orders'].push(order);
     newContent = JSON.parse(newContent).toString();
@@ -71,13 +72,3 @@ app.post("/order", cors(corsOptions), (req, res) => {
 });
 
 app.listen(80);
-
-/*
-Запросы на сервер:
-1. Магазины Х
-2. Товары по магазину Х
-3. Акции Х
-4. Конкретный товар Х
-5. История заказов Х
-6. Сохранение заказа
-*/
