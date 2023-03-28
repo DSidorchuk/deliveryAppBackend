@@ -66,7 +66,6 @@ app.use(express.json());
 app.options("/order", cors());
 app.post("/order", cors(corsOptions), (req, res) => {
     if (!req.body) return res.sendStatus(400);
-    console.log(req.body);
     addOrder(req.body);
     res.send(req.body);
 });
