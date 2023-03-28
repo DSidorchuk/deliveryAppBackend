@@ -10,6 +10,10 @@ const filePath = "delivery.json";
 const content = fs.readFileSync(filePath, "utf8");
 const contentList = JSON.parse(content);
 
+const addOrder = (order) => {
+    const newContent = contentList['orders'].push(order);
+    fs.writeFileSync(filePath, newContent);
+}
 
 const corsOptions = {
     origin: 'http://delivery.dsidorchuk.com.ua',
@@ -55,6 +59,16 @@ app.get("/history/:phone", cors(corsOptions), (req, res) => {
     res.send(orders);
 });
 
+// Send and safe order
+app.options("/order", cors());
+app.post("/order", cors(corsOptions), (req, res) => {
+    console.log('inside post order')
+    if (!req.body) return res.sendStatus(400);
+    console.log(req.body);
+    addOrder(req.body);
+    res.send(req.body);
+});
+
 app.listen(80);
 
 /*
@@ -63,6 +77,6 @@ app.listen(80);
 2. Товары по магазину Х
 3. Акции Х
 4. Конкретный товар Х
-5. История заказов
+5. История заказов Х
 6. Сохранение заказа
 */
