@@ -11,8 +11,9 @@ const content = fs.readFileSync(filePath, "utf8");
 const contentList = JSON.parse(content);
 
 const addOrder = (order) => {
-    const newContent = contentList['orders'].push(order);
-    fs.writeFileSync(filePath, JSON.parse(newContent));
+    let newContent = contentList['orders'].push(order);
+    newContent = JSON.parse(newContent).toString();
+    fs.writeFileSync(filePath, newContent);
 }
 
 const corsOptions = {
@@ -63,9 +64,8 @@ app.get("/history/:phone", cors(corsOptions), (req, res) => {
 app.use(express.json());
 app.options("/order", cors());
 app.post("/order", cors(corsOptions), (req, res) => {
-    console.log(req);
     if (!req.body) return res.sendStatus(400);
-    console.log("inside " + req.body);
+    console.log(req.body);
     addOrder(req.body);
     res.send(req.body);
 });
